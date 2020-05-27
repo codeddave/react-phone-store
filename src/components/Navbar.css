@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+.tech {
+  font-family: "Sacramento", cursive;
+}
+.plug {
+  font-size: 18px;
+  font-style: italic;
+}
+.cartbtn {
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px;
+}
+.cart {
+  margin-right: 3px;
+}
+.cartbtn:hover {
+  background-color: #85c1e9;
+
+  color: white;
+  transition: all 0.3s ease-in-out;
+}

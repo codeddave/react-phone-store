@@ -1,0 +1,26 @@
+.btnn {
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px;
+}
+
+.btnn:hover {
+  background-color: #3498db;
+
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.detailcart {
+  margin-left: 5px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px;
+}
+
+.detailcart:hover {
+  background-color: #3498db;
+
+  color: white;
+  transition: all 0.5s ease-in-out;
+}

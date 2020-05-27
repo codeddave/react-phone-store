@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
+.App {
+  text-align: center;
+  display: flex;
+  background-color: blue;
+}
+
+.minus-btn {
+  color: black;
+  border: 0.1rem solid black !important;
+  border-radius: 0 !important;
+  font-size: 0.8rem !important;
+  background: transparent;
+}
+.minus-btn:hover {
+  color: white !important;
+  background: black;
+}

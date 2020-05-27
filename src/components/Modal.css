@@ -1,0 +1,26 @@
+.modal {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.mainmodal {
+  background: white;
+}
+.contbtn {
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px;
+}
+.contbtn:hover {
+  background-color: #3498db;
+
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
