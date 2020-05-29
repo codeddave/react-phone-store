@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Products from "./Products";
 
+import Carousel from "./Carousel";
+
 import { ProductConsumer } from "../Context";
 
 class ProductList extends Component {
   render() {
     return (
       <div>
+        <Carousel />
         <div className="row">
           <ProductConsumer>
             {(value) => {

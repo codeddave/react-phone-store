@@ -17,3 +17,8 @@
   color: white !important;
   background: black;
 }
+
+.carouselimage {
+  width: 100%;
+  height: "5rem" !important;
+}
