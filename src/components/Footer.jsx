@@ -2,8 +2,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-      <h1>This is the footer wil pass in ome txt contact and stuff</h1>
+    <div className="footercontainer" style={{ backgroundColor: "black" }}>
+      <footer>
+        <div className="row">
+          <div className="col-md-4 mt-3">
+            <h3>Contact Info</h3>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

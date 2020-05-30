@@ -8,6 +8,7 @@ import {
   Details,
   Default,
   Modal,
+  Footer,
 } from "./components";
 import { Route, Switch } from "react-router-dom";
 import { ProductProvider } from "./Context";
@@ -26,6 +27,7 @@ function App() {
           <Route component={Default} />
         </Switch>
         <Modal />
+        <Footer />
       </React.Fragment>
     </ProductProvider>
   );
