@@ -120,7 +120,7 @@ export const storeProducts = [
     total: 0,
   },
   {
-    id: 10,
+    id: 11,
     title: "Apple Airpods Pro",
     img: "img/airpodpro.jpeg",
     price: 290,

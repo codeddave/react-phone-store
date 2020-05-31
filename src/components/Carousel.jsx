@@ -15,47 +15,42 @@ export default function Carousels() {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carouselimage"
             src={Logo}
             alt="First slide"
             style={{ height: "370px" }}
-            className="carouselimage"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carouselimage"
             src={img2}
             alt="Third slide"
             style={{ height: "370px" }}
-            className="carouselimage"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carouselimage"
             src={img3}
             alt="Third slide"
             style={{ height: "370px" }}
-            className="carouselimage"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carouselimage"
             src={img4}
             alt="Third slide"
             style={{ height: "370px" }}
-            className="carouselimage"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carouselimage"
             src={img5}
             alt="Third slide"
             style={{ height: "370px" }}
-            className="carouselimage"
           />
         </Carousel.Item>
       </Carousel>

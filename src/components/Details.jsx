@@ -9,7 +9,7 @@ class Details extends Component {
         {(value) => {
           const {
             id,
-            company,
+
             img,
             info,
             price,
@@ -41,7 +41,7 @@ class Details extends Component {
                           disabled={inCart ? true : false}
                           onClick={() => {
                             value.addToCart(id);
-                            value.openModal(id)
+                            value.openModal(id);
                           }}
                         >
                           {inCart ? "In Cart" : "Add To Cart"}
