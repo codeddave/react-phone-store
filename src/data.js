@@ -14,7 +14,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Samsung S10",
-    img: "img/s103.jpg",
+    img: "img/s10.jpg",
     price: 850,
     company: "SAMSUNG",
     info:
